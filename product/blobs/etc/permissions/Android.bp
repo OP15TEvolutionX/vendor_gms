@@ -39,10 +39,10 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "com.google.android.apps.dreamliner-27Q1",
+    name: "com.google.android.apps.dreamliner",
     product_specific: true,
     sub_dir: "permissions",
-    src: "com.google.android.apps.dreamliner-27Q1.xml",
+    src: "com.google.android.apps.dreamliner.xml",
     filename_from_src: true,
 }
 
@@ -87,14 +87,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "com.google.android.feature.aicore_gms_onboarded",
-    product_specific: true,
-    sub_dir: "permissions",
-    src: "com.google.android.feature.aicore_gms_onboarded.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
     name: "com.google.android.odad",
     product_specific: true,
     sub_dir: "permissions",
@@ -107,14 +99,6 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "permissions",
     src: "com.google.android.verifier.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "privapp-permissions-com.google.android.mosey",
-    product_specific: true,
-    sub_dir: "permissions",
-    src: "privapp-permissions-com.google.android.mosey.xml",
     filename_from_src: true,
 }
 

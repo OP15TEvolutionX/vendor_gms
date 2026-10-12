@@ -15,6 +15,22 @@
 //
 
 prebuilt_etc {
+    name: "preinstalled-packages-com.google.android.apps.pixel.tabby",
+    system_ext_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-com.google.android.apps.pixel.tabby.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-pixelsupport",
+    system_ext_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-pixelsupport.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "preinstalled-packages-pixelsystemservice",
     system_ext_specific: true,
     sub_dir: "sysconfig",
@@ -23,9 +39,9 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "pixel-haptics-override",
+    name: "staged-installer-whitelist-com.google.android.apps.pixel.tabby",
     system_ext_specific: true,
     sub_dir: "sysconfig",
-    src: "pixel-haptics-override.xml",
+    src: "staged-installer-whitelist-com.google.android.apps.pixel.tabby.xml",
     filename_from_src: true,
 }

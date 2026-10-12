@@ -31,7 +31,7 @@ endif
 
 # product/app
 PRODUCT_PACKAGES += \
-    CalculatorGooglePrebuilt_85022643 \
+    CalculatorGooglePrebuilt_85011599 \
     CalendarGooglePrebuilt \
     Chrome \
     Chrome-Stub \
@@ -72,17 +72,16 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2020 \
     FilesPrebuilt \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1111728 \
+    GoogleRestorePrebuilt-v1054408 \
     KidsSupervisionStub \
-    MoseyApp \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76112331 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_versioned \
+    SetupWizardPrebuilt_cd1a \
     TurboPrebuilt \
     Velvet \
     VerifierPrebuiltClassic \
@@ -90,13 +89,13 @@ PRODUCT_PACKAGES += \
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
-    SCONE
+    SCONE-v77459
 endif
 
-ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion yogi kodiak grizzly cubs, $(LINEAGE_BUILD)),)
+ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
     DreamlinerDreamsPrebuilt_100894 \
-    DreamlinerPrebuilt_27Q1 \
+    DreamlinerPrebuilt_22000020 \
     DreamlinerUpdater
 endif
 
@@ -120,8 +119,9 @@ PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
     GoogleFeedback \
     GoogleServicesFramework \
+    MoseyApp \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_versioned \
+    SetupWizardPixelPrebuilt_cd1a \
     WallpaperPickerGoogleRelease
 
 # PrebuiltGmsCore

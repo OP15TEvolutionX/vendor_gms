@@ -31,7 +31,7 @@ endif
 
 # product/app
 PRODUCT_PACKAGES += \
-    CalculatorGooglePrebuilt_85022643 \
+    CalculatorGooglePrebuilt_85011599 \
     Chrome \
     Chrome-Stub \
     GoogleContacts \
@@ -47,21 +47,21 @@ PRODUCT_PACKAGES += \
     WebViewGoogle-Stub \
     talkback
 
+# product/priv-app
 PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1111728 \
+    GoogleRestorePrebuilt-v1054408 \
     KidsSupervisionStub \
-    MoseyApp \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
-    PrebuiltDeskClockGoogle_76112331 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_versioned \
+    SetupWizardPrebuilt_cd1a \
     TurboPrebuilt \
     VelvetGo \
     VerifierPrebuiltClassic \
@@ -88,9 +88,9 @@ PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
     GoogleFeedback \
     GoogleServicesFramework \
+    MoseyApp \
     NexusLauncherRelease \
-    PersistentBackgroundServices \
-    SetupWizardPixelPrebuilt_versioned \
+    SetupWizardPixelPrebuilt_cd1a \
     StorageManagerGoogle \
     WallpaperPickerGoogleRelease
 

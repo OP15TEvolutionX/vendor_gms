@@ -55,22 +55,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "default-permissions_dreamliner",
-    product_specific: true,
-    sub_dir: "default-permissions",
-    src: "default-permissions_dreamliner.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "default-permissions_findMyDevice",
-    product_specific: true,
-    sub_dir: "default-permissions",
-    src: "default-permissions_findMyDevice.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
     name: "default-permissions_nowplaying",
     product_specific: true,
     sub_dir: "default-permissions",
@@ -123,14 +107,6 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "default-permissions",
     src: "default-permissions-com.google.android.apps.pixel.psi.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "default-permissions-com.google.android.mosey",
-    product_specific: true,
-    sub_dir: "default-permissions",
-    src: "default-permissions-com.google.android.mosey.xml",
     filename_from_src: true,
 }
 

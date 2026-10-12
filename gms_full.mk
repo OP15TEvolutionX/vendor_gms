@@ -36,8 +36,8 @@ PRODUCT_PACKAGES += \
 
 # product/app
 PRODUCT_PACKAGES += \
-    AiIconsPrebuilt_26Q4.1 \
-    CalculatorGooglePrebuilt_85022643 \
+    AiIconsPrebuilt_20260121 \
+    CalculatorGooglePrebuilt_85011599 \
     CalendarGooglePrebuilt \
     Chrome \
     Chrome-Stub \
@@ -50,6 +50,8 @@ PRODUCT_PACKAGES += \
     NgaResources \
     Photos \
     PixelThemesStub2026 \
+    PrebuiltGoogleAdservicesTvp \
+    PrebuiltGoogleTelemetryTvp \
     SoundAmplifierPrebuilt_v4.91.886631805 \
     SoundPickerPrebuilt_3.4 \
     SwitchAccessPrebuilt_1.17.0.877181440 \
@@ -60,8 +62,6 @@ PRODUCT_PACKAGES += \
     WallpaperEmojiPrebuilt-p26-foldable-wallpaper \
     WebViewGoogle \
     WebViewGoogle-Stub \
-    com.google.mainline.adservices_tplus \
-    com.google.mainline.telemetry_splus \
     talkback
 
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
@@ -84,13 +84,13 @@ endif
 # product/priv-app
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
-    SCONE
+    SCONE-v77459
 endif
 
-ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion yogi kodiak grizzly cubs, $(LINEAGE_BUILD)),)
+ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
     DreamlinerDreamsPrebuilt_100894 \
-    DreamlinerPrebuilt_27Q1 \
+    DreamlinerPrebuilt_22000020 \
     DreamlinerUpdater
 endif
 
@@ -113,16 +113,15 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationAiAiPrebuiltPixel2026 \
     FamilySpacePrebuilt-v2026 \
     FilesPrebuilt \
-    GeminiShell_305 \
+    GeminiShell_227 \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1111728 \
+    GoogleRestorePrebuilt-v1054408 \
     KidsSupervisionStub \
-    MoseyApp \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76112331 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     PulsePrebuilt \
     RelationshipsPrebuilt-301 \
@@ -130,7 +129,7 @@ PRODUCT_PACKAGES += \
     ScribePrebuilt_v8.7.880674799 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_versioned \
+    SetupWizardPrebuilt_cd1a \
     TurboPrebuilt \
     Velvet \
     VerifierPrebuiltClassic \
@@ -163,16 +162,17 @@ endif
 
 PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
-    DeviceConnectivityServicePrebuilt \
+    DeviceConnectivityServicePrebuilt_26.01.00 \
     GoogleFeedback \
     GoogleServicesFramework \
+    MoseyApp \
     NexusLauncherRelease \
-    PersistentBackgroundServices \
     PixelSearchPrebuilt_26.02.00 \
-    SetupWizardPixelPrebuilt_versioned \
+    SetupWizardPixelPrebuilt_cd1a \
     StorageManagerGoogle \
     TurboAdapter \
-    WallpaperPickerGoogleRelease
+    WallpaperPickerGoogleRelease \
+    YourWidgetsStub
 
 # PrebuiltGmsCore
 PRODUCT_PACKAGES += \

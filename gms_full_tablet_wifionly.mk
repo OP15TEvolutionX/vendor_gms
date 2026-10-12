@@ -36,8 +36,8 @@ PRODUCT_PACKAGES += \
 
 # product/app
 PRODUCT_PACKAGES += \
-    AiIconsPrebuilt_26Q4.1 \
-    CalculatorGooglePrebuilt_85022643 \
+    AiIconsPrebuilt_20260121 \
+    CalculatorGooglePrebuilt_85011599 \
     CalendarGooglePrebuilt \
     Chrome \
     Chrome-Stub \
@@ -50,6 +50,8 @@ PRODUCT_PACKAGES += \
     NgaResources \
     Photos \
     PixelThemesStub2026 \
+    PrebuiltGoogleAdservicesTvp \
+    PrebuiltGoogleTelemetryTvp \
     SoundAmplifierPrebuilt_v4.91.886631805 \
     SoundPickerPrebuilt_3.4 \
     SwitchAccessPrebuilt_1.17.0.877181440 \
@@ -59,8 +61,6 @@ PRODUCT_PACKAGES += \
     WallpaperEmojiPrebuilt-p26-foldable-wallpaper \
     WebViewGoogle \
     WebViewGoogle-Stub \
-    com.google.mainline.adservices_tplus \
-    com.google.mainline.telemetry_splus \
     talkback
 
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
@@ -82,24 +82,22 @@ PRODUCT_PACKAGES += \
     CarrierMetrics \
     CbrsNetworkMonitor \
     ConfigUpdater \
-    CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     DevicePersonalizationAiAiPrebuiltPixel2026 \
     FilesPrebuilt \
-    GoogleRestorePrebuilt-v1111728 \
+    GoogleRestorePrebuilt-v1054408 \
     KidsSupervisionStub \
-    MoseyApp \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76112331 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     RelationshipsPrebuilt-301 \
     ScribePrebuilt_v8.7.880674799 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_versioned \
+    SetupWizardPrebuilt_cd1a \
     TurboPrebuilt \
     Velvet \
     VerifierPrebuiltClassic \
@@ -115,7 +113,7 @@ endif
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
-    SCONE
+    SCONE-v77459
 endif
 
 # system/app
@@ -138,13 +136,13 @@ PRODUCT_PACKAGES += \
 # system_ext/priv-app
 PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
-    DeviceConnectivityServicePrebuilt \
+    DeviceConnectivityServicePrebuilt_26.01.00 \
     GoogleFeedback \
     GoogleServicesFramework \
     MagicPortraitWallpapers \
+    MoseyApp \
     NexusLauncherRelease \
-    PixelSearchPrebuilt_26.02.00 \
-    SetupWizardPixelPrebuilt_versioned \
+    SetupWizardPixelPrebuilt_cd1a \
     StorageManagerGoogle \
     TurboAdapter \
     WallpaperPickerGoogleRelease
