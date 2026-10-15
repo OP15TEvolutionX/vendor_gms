@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     default-permissions-com.google.android.pixel.setupwizard \
     default-permissions_tachyon
 
+# Optional platform library used by MoseyApp.
+PRODUCT_PACKAGES += \
+    com.google.android.moseylib
+
 # App Permissions
 PRODUCT_PACKAGES += \
     com.google.android.apps.pixel.dcservice \
