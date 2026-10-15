@@ -19,6 +19,7 @@
     <privapp-permissions package="com.google.android.mosey">
         <permission name="android.permission.BLUETOOTH_PRIVILEGED" />
         <permission name="android.permission.LOCAL_MAC_ADDRESS" />
+        <permission name="android.permission.READ_WIFI_CREDENTIAL" />
         <permission name="android.permission.MANAGE_WIFI_INTERFACES" />
         <!-- Needed to create network agent -->
         <permission name="android.permission.NETWORK_FACTORY" />

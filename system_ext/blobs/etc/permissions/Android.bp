@@ -53,3 +53,11 @@ prebuilt_etc {
     src: "privapp-permissions-google-se.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc {
+    name: "com.google.android.moseylib.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.moseylib.xml",
+    filename_from_src: true,
+}
