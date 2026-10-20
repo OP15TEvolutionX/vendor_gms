@@ -79,6 +79,8 @@ PRODUCT_PACKAGES += \
     google \
     nexus \
     nga \
+    nowplaying \
+    nowplaying_app_26q1 \
     pixel_2017-initial-package-stopped-states \
     pixel_experience_2017 \
     pixel_experience_2018 \

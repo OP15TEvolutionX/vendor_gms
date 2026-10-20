@@ -317,6 +317,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_HINTS"/>
         <permission name="android.permission.PERSONAL_CONTEXT_HOST_INSIGHT_SURFACE"/>
         <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS"/>
+        <permission name="com.google.android.ambientindication.permission.AMBIENT_INDICATION" />
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.as.oss">

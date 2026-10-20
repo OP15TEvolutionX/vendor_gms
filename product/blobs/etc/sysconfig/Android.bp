@@ -183,6 +183,22 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "nowplaying",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "nowplaying.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "nowplaying_app_26q1",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "nowplaying_app_26q1.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "pixel_2017-initial-package-stopped-states",
     product_specific: true,
     sub_dir: "sysconfig",
